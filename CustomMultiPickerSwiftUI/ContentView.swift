@@ -15,7 +15,9 @@ struct ContentView: View {
     @State var show = false
     
     var body: some View {
-        ZStack {
+        VStack {
+            Spacer()
+            HStack {
             if !self.imagePost.isEmpty {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 5) {
@@ -37,19 +39,23 @@ struct ContentView: View {
                 }
                 .padding(.bottom, 10)
             }
-            Button(action: {
-                self.imagePost.removeAll()
-                self.show.toggle()
-            }) {
-                Image(systemName: "camera")
-                    .foregroundColor(Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)))
-                    .frame(width: 120, height: 44)
             }
-            .buttonStyle(ButtonModifier())
-            .sheet(isPresented: self.$show) {
-                CustomPicker(imagePost: self.$imagePost, show: self.$show)
+            Spacer()
+            HStack {
+                Button(action: {
+                    self.imagePost.removeAll()
+                    self.show.toggle()
+                }) {
+                    Image(systemName: "camera")
+                        .foregroundColor(Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)))
+                        .frame(width: 120, height: 44)
+                }
+                .buttonStyle(ButtonModifier())
+                .sheet(isPresented: self.$show) {
+                    CustomPicker(imagePost: self.$imagePost, show: self.$show)
+                }
+                .padding([.top, .bottom], 10)
             }
-            .padding([.top, .bottom], 10)
         }
     }
 }
