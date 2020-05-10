@@ -14,6 +14,9 @@
 		882C6DEF2468443D00E89E9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882C6DEE2468443D00E89E9F /* Preview Assets.xcassets */; };
 		882C6DF22468443D00E89E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882C6DF02468443D00E89E9F /* LaunchScreen.storyboard */; };
 		882C6DFA246847FC00E89E9F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 882C6DF9246847FC00E89E9F /* .gitignore */; };
+		882C6DFC24684AF000E89E9F /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882C6DFB24684AF000E89E9F /* Modifiers.swift */; };
+		882C6DFE24684BB700E89E9F /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882C6DFD24684BB700E89E9F /* CustomPicker.swift */; };
+		882C6E0024684BD700E89E9F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882C6DFF24684BD700E89E9F /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		882C6DF12468443D00E89E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		882C6DF32468443D00E89E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		882C6DF9246847FC00E89E9F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		882C6DFB24684AF000E89E9F /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		882C6DFD24684BB700E89E9F /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		882C6DFF24684BD700E89E9F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				882C6DE52468443C00E89E9F /* AppDelegate.swift */,
 				882C6DE72468443C00E89E9F /* SceneDelegate.swift */,
 				882C6DE92468443C00E89E9F /* ContentView.swift */,
+				882C6DFD24684BB700E89E9F /* CustomPicker.swift */,
+				882C6DFF24684BD700E89E9F /* Card.swift */,
+				882C6DFB24684AF000E89E9F /* Modifiers.swift */,
 				882C6DEB2468443D00E89E9F /* Assets.xcassets */,
 				882C6DF02468443D00E89E9F /* LaunchScreen.storyboard */,
 				882C6DF32468443D00E89E9F /* Info.plist */,
@@ -150,7 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882C6DFC24684AF000E89E9F /* Modifiers.swift in Sources */,
+				882C6E0024684BD700E89E9F /* Card.swift in Sources */,
 				882C6DE62468443C00E89E9F /* AppDelegate.swift in Sources */,
+				882C6DFE24684BB700E89E9F /* CustomPicker.swift in Sources */,
 				882C6DE82468443C00E89E9F /* SceneDelegate.swift in Sources */,
 				882C6DEA2468443C00E89E9F /* ContentView.swift in Sources */,
 			);
