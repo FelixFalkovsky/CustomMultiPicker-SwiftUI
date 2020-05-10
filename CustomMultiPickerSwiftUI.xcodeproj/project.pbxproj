@@ -13,6 +13,7 @@
 		882C6DEC2468443D00E89E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882C6DEB2468443D00E89E9F /* Assets.xcassets */; };
 		882C6DEF2468443D00E89E9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882C6DEE2468443D00E89E9F /* Preview Assets.xcassets */; };
 		882C6DF22468443D00E89E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882C6DF02468443D00E89E9F /* LaunchScreen.storyboard */; };
+		882C6DFA246847FC00E89E9F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 882C6DF9246847FC00E89E9F /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		882C6DEE2468443D00E89E9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		882C6DF12468443D00E89E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		882C6DF32468443D00E89E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882C6DF9246847FC00E89E9F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		882C6DD92468443C00E89E9F = {
 			isa = PBXGroup;
 			children = (
+				882C6DF9246847FC00E89E9F /* .gitignore */,
 				882C6DE42468443C00E89E9F /* CustomMultiPickerSwiftUI */,
 				882C6DE32468443C00E89E9F /* Products */,
 			);
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882C6DFA246847FC00E89E9F /* .gitignore in Resources */,
 				882C6DF22468443D00E89E9F /* LaunchScreen.storyboard in Resources */,
 				882C6DEF2468443D00E89E9F /* Preview Assets.xcassets in Resources */,
 				882C6DEC2468443D00E89E9F /* Assets.xcassets in Resources */,
